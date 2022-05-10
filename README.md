@@ -50,14 +50,14 @@ Entity클래스를 작성했다면 이번엔 Repository 인터페이스를 만�
 
 #### 사용메소드
 
+| method | 기능 |
+| ------------ | ------------- |
+| save() | 레코드 저장(insert, update)  |
+| findOne() | primary key로 레코드 한건 찾기 |
+| findAll() | 전체 레코드 불러오기. 정렬(sort), 페이징(pageable) 가능 |
+| count() | 레코드 갯수 |
+| delete() | 레코드 삭제 |
 
-|method|기능|
-|---||---|
-|save()|레코드 저장(insert, update)|
-|findOne()|primary key로 레코드 한건 찾기|
-|findAll()|전체 레코드 불러오기. 정렬(sort), 페이징(pageable) 가능|
-|count()|레코드 갯수|
-|delete()|레코드 삭제|
 
 ### 참고출처링크
 https://velog.io/@tmdgh0221/JPA-%EA%B8%B0%EB%B3%B8%ED%8E%B8-%EC%A0%95%EB%A6%AC -> 이론적인내용
