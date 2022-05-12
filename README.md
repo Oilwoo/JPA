@@ -59,6 +59,7 @@ Entity클래스를 작성했다면 이번엔 Repository 인터페이스를 만�
 | delete() | 레코드 삭제 |
 
 
+
 ### 참고출처링크
 https://velog.io/@tmdgh0221/JPA-%EA%B8%B0%EB%B3%B8%ED%8E%B8-%EC%A0%95%EB%A6%AC -> 이론적인내용
 https://jobc.tistory.com/120 -> JPA 구체적인 사용법
